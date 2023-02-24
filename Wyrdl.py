@@ -1,2 +1,6 @@
 guess = input("Guess a word: ")
-print(guess)
+if guess == "SNAKE":
+    print("Correct")
+
+else:
+    print("Wrong")
